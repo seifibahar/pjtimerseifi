@@ -1,0 +1,128 @@
+body{
+
+  background-color: #2a707a;
+}
+ @font-face {
+  font-family: Demi;
+  src: url(./assets/font/FontsFree-Net-Kage-Demi-Bold.ttf)
+} 
+.presentdaytimetimer{
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  background-color:  #AABEC2;
+  width: 1264px;
+  height: 358px;
+  color: rgb(252, 245, 240);
+  margin-left: 50px;
+  direction: rtl;
+  border-radius: 57px; 
+}
+
+
+
+
+
+.timer{
+  width: 534px;
+  height: 314px;
+  background-color: #F37373;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  color: #655F5F;
+  border-radius: 57px;
+  margin-right: 20px;
+
+}
+.main-timer{
+  width: 485.03px;
+   height: 91.21px;
+   margin-right: 150px;
+   font-size: 80px;
+   font-weight: lighter;
+   word-spacing: 30px;
+   
+}
+.buttonbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+.startbtn{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #98D97D;
+  width: 147px;
+  height: 62px;
+  border-radius: 50px;
+  color: #655F5F;
+ margin-top: 20px;
+ 
+
+}
+.stopbtn{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  background-color:#951A1A;
+  width: 147px;
+  height: 62px;
+  border-radius: 50px;
+  color: #655F5F;
+  margin-top: 20px;
+
+}
+.resetbtn{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  background-color:#FFFFFF;
+  width: 147px;
+  height: 62px;
+  border-radius: 50px;
+  color: #655F5F;
+  margin-top: 20px;
+}
+
+.presenttime{
+  width: 719.41px;
+    height: 163.21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 140px;
+    font-weight: light;
+    color: #655F5F;
+}
+.presentday{
+  width: 719.41px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #655F5F;
+    font-size: 50px;
+    word-spacing: 50px;
+    margin-top: 30px;
+    /* word-spacing: 140px; */
+}
+.present-date-time{
+  word-spacing: 200px;
+    margin-right: 20px;
+}
+.presentday_Number{
+  word-spacing: 100px;
+  margin-right: 20px;
+}
